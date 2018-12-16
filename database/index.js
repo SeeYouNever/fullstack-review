@@ -17,14 +17,14 @@ let save = (obj) => {
   // TODO: Your code here
   // This function should save a repo or repos to
   // the MongoDB
-  let gyro = new Repo ({
+  let retData = new Repo ({
     reponame: obj.name,
     username: obj.owner.login,
     forkCount: obj.forks_count,
     url: obj.html_url,
     img: obj.owner.avatar_url});
 
-  gyro.save (err => {
+  retData.save (err => {
     if(err) {
       return console.log('Unable to save data')
     }
