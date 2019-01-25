@@ -1,2 +1,2 @@
-# fullstack-review
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+Uses GitHub API to grab users most popular repositories and displays them on a list.
+MERN Stack.
